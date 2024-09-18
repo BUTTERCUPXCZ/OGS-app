@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@yield("title","Login")</title>
     <link rel="stylesheet" href="{{ asset('css/Login.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,12 +13,12 @@
          
 <section class="vh-90" style="background-color: lightgray;">
   <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-end align-items-center h-90">
-      <div  class=" welcome-text col-md-6">
-        <h1 class="fw-bold mb-3">Welcome!</h1>
+    <div class="row d-flex justify-content-center align-items-center h-90">
+      <div  class="col-md-6">
+        <h1 class=" fw-bold mb-3">Welcome!</h1>
         <p>Manage your courses, submit grades, and communicate seamlessly  with <br> the admin and teachers. Your contributions ensure a high standard of<br> education and support. Thank you for your dedication and commitment!</p>
       </div>
-      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+      <div class="col-12 col-md-5 col-lg-5 col-xl-5 custom-heigth">
         <div class="card bg-white text-black" style="border-radius: 1rem;">
           <div class="card-body p-5 text-center">
 
