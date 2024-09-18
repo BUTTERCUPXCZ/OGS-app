@@ -15,7 +15,7 @@
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-90">
       <div  class="col-md-6">
-        <h1 class=" fw-bold mb-3">Welcome!</h1>
+        <h1 class=" fw-bold mb-3">Not Welcome!</h1>
         <p>Manage your courses, submit grades, and communicate seamlessly  with <br> the admin and teachers. Your contributions ensure a high standard of<br> education and support. Thank you for your dedication and commitment!</p>
       </div>
       <div class="col-12 col-md-5 col-lg-5 col-xl-5 custom-heigth">
